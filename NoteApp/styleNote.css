@@ -1,0 +1,64 @@
+body{
+    background-color: #7bdaf3;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+.agregar{
+background-color: #9ec862;
+border: none;
+border-radius: 3px;
+color: white;
+padding: 0.5rem 1rem;
+position: fixed;
+top:1rem;
+right: 1rem;
+cursor: pointer;
+}
+
+.nota{
+    background-color: #fff;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nota .herramientas{
+    background-color: #9ec862;
+    display: flex;
+    padding: 0.5rem;
+    justify-content: flex-end;
+}
+
+.nota .herramientas button{
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.nota .principal{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.nota textarea{
+    border: none;
+    width: 100%;
+    font-family: inherit;
+    height: 100%;
+    outline:none;
+    font-size: 1.2rem;
+}
+
+.nota .hidden{
+    display: none;
+}

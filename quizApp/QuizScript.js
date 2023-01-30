@@ -108,8 +108,8 @@ submitBotton.addEventListener("click", () => {
     if(actualQuiz < quizData.length){
         loadQuiz();
     }else{
-        quiz.innerHTML=`<h2> Tu respuesta correcta
-        en ${marca}/${quizData.length} preguntas
+        quiz.innerHTML=`<h2> Tus respuestas correctas
+         ${marca}/${quizData.length} preguntas
         </h2>`
     }
 })
